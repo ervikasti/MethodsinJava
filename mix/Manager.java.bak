@@ -1,0 +1,11 @@
+
+class Manager 
+{
+	static void accepted(int loanAmount)
+	{
+		
+		System.out.println("**** Manager approved the loan ");
+		CitiBank2 obj = new CitiBank2();
+		obj.loan = loanAmount;
+	}
+}
